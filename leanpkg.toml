@@ -1,0 +1,8 @@
+[package]
+name = "pin_and_spin"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.45.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "fc739bf5570e5e55116a1929a36012358fda22bf"}
